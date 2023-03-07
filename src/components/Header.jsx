@@ -12,9 +12,10 @@ function Header() {
         </div>
       </Link>
       <Link to="/cart" className={styles.button}>
-        <p>520 ₽</p>
+        <p>0 ₽</p>
+        <div className={styles.line}></div>
         <img src="img/cart.svg" />
-        <span>3</span>
+        <span>0</span>
       </Link>
     </header>
   );

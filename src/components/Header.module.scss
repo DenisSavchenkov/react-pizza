@@ -64,14 +64,24 @@
       padding-top: 1px;
     }
 
-    &::before {
-      position: absolute;
-      content: '';
+    .line {
       width: 1px;
       height: 25px;
       background: rgba(255, 255, 255, 0.25);
-      top: 13px;
-      right: 70px;
+      margin-right: 20px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    .logo {
+      display: block;
+      text-align: center;
+      margin: 15px 0 20px 0;
+    }
+
+    .button {
+      margin-bottom: 15px;
     }
   }
 }
